@@ -13,36 +13,6 @@ This project aims to create an emulator capable of running various retro games. 
 - **User-Friendly Interface**: Offers a simple and intuitive user interface.
 - **Wide Game Support**: Supports a variety of retro games, with new additions constantly being made.
 
-## 🔧 Installation
-
-To get started with the emulator, follow these steps:
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/your-username/emulator-project.git
-    ```
-
-2. **Install Required Libraries**:
-    - Make sure you have installed the necessary development tools and libraries for your platform.
-    - For example, on Ubuntu:
-        ```bash
-        sudo apt-get update
-        sudo apt-get install build-essential cmake libglfw3-dev libglew-dev
-        ```
-
-3. **Build the Project**:
-    ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
-    ```
-
-4. **Run the Emulator**:
-    ```bash
-    ./emulator
-    ```
-
 ## 🚀 Future Plans
 
 - **New Features**: We're working on adding new features to enhance the user experience.

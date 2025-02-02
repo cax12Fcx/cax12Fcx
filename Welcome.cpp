@@ -1,6 +1,6 @@
-# 🚀 Welcome to Our Python Emulator Project! 🎮
+# 🚀 Welcome to Our C++ Emulator Project! 🎮
 
-Hello! This project is all about developing a Python-based emulator. Here's a brief overview of what we're working on:
+Hello! This project is all about developing a C++-based emulator. Here's a brief overview of what we're working on:
 
 ## 🌟 About the Project
 
@@ -23,13 +23,24 @@ To get started with the emulator, follow these steps:
     ```
 
 2. **Install Required Libraries**:
+    - Make sure you have installed the necessary development tools and libraries for your platform.
+    - For example, on Ubuntu:
+        ```bash
+        sudo apt-get update
+        sudo apt-get install build-essential cmake libglfw3-dev libglew-dev
+        ```
+
+3. **Build the Project**:
     ```bash
-    pip install -r requirements.txt
+    mkdir build
+    cd build
+    cmake ..
+    make
     ```
 
-3. **Run the Emulator**:
+4. **Run the Emulator**:
     ```bash
-    python emulator.py
+    ./emulator
     ```
 
 ## 🚀 Future Plans
